@@ -12,7 +12,7 @@ import Header from './components/Header';
 import HomeCategory from './components/HomeCategory';
 import {settingsActions} from '../../actions/settingsActionts';
 import {categoryActions} from '../../actions/categoryActions';
-import {black, mainColor} from '../../constants/colors';
+import {black} from '../../constants/colors';
 import HomeList from './components/HomeList';
 
 export default function Home() {

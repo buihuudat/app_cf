@@ -29,7 +29,7 @@ const CategoryItem = memo((props: Props) => {
       style={{
         ...styles.item,
         width: props.size || 130,
-        height: props.size ? props.size + 20 : 150,
+        height: props.size ? props.size + 20 : 120,
       }}>
       <Image source={{uri: category.image}} style={styles.image} />
       <Text style={styles.text}>{category.name}</Text>
@@ -71,6 +71,7 @@ const styles = StyleSheet.create({
 
   text: {
     fontSize: 18,
+    paddingTop: 5,
     fontWeight: '700',
     textAlign: 'center',
     textTransform: 'capitalize',

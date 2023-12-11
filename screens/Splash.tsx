@@ -18,7 +18,6 @@ import {NativeStackNavigationProp} from '@react-navigation/native-stack';
 import {RootStackParamList} from '../routes';
 import {checkAuth} from '../utils/handlers/checkAuth';
 import {appData} from '../utils/handlers/appData';
-import {getToken} from '../utils/handlers/pushNotification';
 
 export default function Splash() {
   const [loading, setLoading] = useState(true);
@@ -81,7 +80,7 @@ const styles = StyleSheet.create({
     fontSize: 30,
     paddingTop: 30,
     fontWeight: '600',
-    color: black,
+    color: 'white',
   },
   name: {
     fontSize: 35,

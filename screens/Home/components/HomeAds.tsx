@@ -3,7 +3,7 @@ import React from 'react';
 import {homeAdsData} from '../data';
 import {HomeAdsDataType} from '../../../types/homeType';
 import {Button, Icon} from '@rneui/themed';
-import {mainColor, text, white} from '../../../constants/colors';
+import {mainColor, white} from '../../../constants/colors';
 
 const HomeAdsItem = (item: HomeAdsDataType) => (
   <View style={styles.container}>

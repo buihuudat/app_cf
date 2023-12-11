@@ -8,9 +8,9 @@ import Toast from 'react-native-toast-message';
 let IP = '192.168.1.8';
 
 const PORT = 5000;
-export const host = `http://${IP}:${PORT}`;
+// export const host = `http://${IP}:${PORT}`;
 
-// export const host = 'ws://server.freshgreen.io.vn';
+export const host = 'ws://cf-server-g6ta.onrender.com/';
 const baseURL = `http://${IP}:${PORT}/api/v1`;
 // const baseURL = 'https://server.freshgreen.io.vn/api/v1';
 
